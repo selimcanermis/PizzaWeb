@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="deccription" content="Web Uygulama Deneme">
+    <meta name="author" content="Selim Can Ermiş 2019">
+    <meta name="keywords" content="HTML, CSS, PİZZA">
+    <meta name="viewport" content="width-device-width , initial-scale-1.0">
+
+    <title>DOMİNO'S PİZZA</title>
+
+
+    <!-- <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        <!-- en ust kısım için oluşturduğum class=conainer. 
+                Bu kısmın içinde sola dayalı logo ve sağda menu çubukları olucak. -->
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="image/logo.png"></a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">ANASAYFA</a></li>
+                    <li><a href="pizzalar.html">PİZZALAR</a></li>
+                    <li><a href="kampanyalar.html">KAMPANYALAR</a></li>
+                    <li><a href="hakkimizda.html">HAKKIMIZDA</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main section -->
+    <section id="mainSlider" class="slider">
+        <div id="mainCaption" class="caption">
+            <h1 style="font-family: 'Bungee', cursive;">DOMİNO'S PİZZA</h1>
+            <p style="font-family: 'Bungee', cursive;">TÜRKİYE'NİN EN LEZZETLİ PİZZA MARKASI</p>
+        </div>
+    </section>
+
+    <!-- Feature section -->
+    <section id="features" class="sectionArea">
+        <div class="featuresTop">
+            <h2 class="sectionHeader">PİZZA ÇEŞİTLERİ</h2>
+            <!-- <p>Feature altindaki yazilar buraya gelecek</p> -->
+        </div>
+
+        <!-- Features içinde 3 sutun olduğu için bir container içine
+                üç tane col3 class lı div sutunu koydum. -->
+        <div class="featuresBody">
+            <div class="container">
+                <div class="col3">
+                    <div class="item">
+                        <div class="zoom">
+                            <img src="image/BolMalzemos.png">
+                        </div>
+                        <div class="itemText">
+                            <h3>BOL MALZEMOS</h3>
+                            <p>Jambon, Pepperoni, Sucuk, Sosis, Misir, Mozarella Peyniri, Pizza Sos, Siyah Zeytin
+                            </p>
+                            <a href="#" class="btnDetails">Daha Fazla Detay</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col3">
+                    <div class="item">
+                        <div class="zoom">
+                            <img src="image/KarisikPizza.png">
+                        </div>
+                        <div class="itemText">
+                            <h3>KARIŞIK PİZZA</h3>
+                            <p>Sucuk, Sosis, Misir, Mozarella Peyniri, Pizza Sos, Yesil Biber, Mantar</p>
+                            <a href="#" class="btnDetails">Daha Fazla Detay</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col3">
+                    <div class="item">
+                        <div class="zoom">
+                            <img src="image/TavukluPizza.png">
+                        </div>
+                        <div class="itemText">
+                            <h3>TAVUKLU PİZZA</h3>
+                            <p>Koz Biber, Misir, Mozarella Peyniri, Pizza Sos, Yesil Biber, Yöresel Lezzetler Baharatı
+                            </p>
+                            <a href="#" class="btnDetails">Daha Fazla Detay</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Paraliax section -->
+    <section id="paraliax" class="sectionArea">
+        <div class="paraliaxTop">
+            <h2 class="sectionHeader">HOŞGELDİNİZ</h2>
+            <!-- <p>Paraliax altindaki yazilar buraya gelecek</p> -->
+        </div>
+    </section>
+
+    <!-- Engine section -->
+    <section id="engine" class="sectionArea">
+        <div class="engineTop">
+            <h2 class="sectionHeader">DÜNYA LEZZETLERİ</h2>
+            <p>Dünya mutafığından özel pizza çeşitleri</p>
+        </div>
+
+        <div class="engineBody">
+            <div class="container">
+                <div class="col2">
+                    <div class="engineContainer">
+                        <img src="image/NewYorkPizza.png" class="imageOver">
+                        <div class="engineOverlay">
+                            <div class="engineText">NEW YORK PİZZA</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col2">
+                    <div class="engineContainer">
+                        <img src="image/Callypso.png" class="imageOver">
+                        <div class="engineOverlay2">
+                            <div class="engineText">CALLYPSO PİZZA</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="sectionArea">
+        <div class="container">
+            <di class="col3">
+                <div class="footerItem">
+                    <h3>DOMİNO'S PİZZA</h3>
+                    <!-- <a href="index.html"><img src="image/logoFooter.jpg"></a> -->
+                    <p>Pizzalarımızda kullandığımız sosis, sucuk, küp sucuk, pepperoni,
+                        New York pepperoni, misket kebap, jambon ürünleri piliç ve/veya hindi etinden, döner eti
+                        kıymadan üretilmiştir.</p>
+                </div>
+            </di>
+            <di class="col3">
+                <div class="footerItem">
+                    <!-- <h3>KISAYOLLAR</h3>
+                        <ul class="footerLinks">
+                            <li><a href="index.html">ANASAYFA</a></li>
+                            <li><a href="pizzalar.html">PİZZALAR</a></li>
+                            <li><a href="hakkinda.html">HAKKINDA</a></li>
+                            <li><a href="iletisim.html">İLETİŞİM</a></li>
+                        </ul> -->
+                    <h3>SİPARİŞ HATTI</h3>
+                    <ul class="footerLinks">
+                        <li class="tel">444 33 22</li>
+                        <li></li>
+                    </ul>
+                    <h3 style="margin-top:20px">ŞİKAYET/ÖNERİ HATTI</h3>
+                    <ul class="footerLinks">
+                        <li class="tel">0850 755 33 22</li>
+                        <li></li>
+                    </ul>
+                </div>
+            </di>
+            <di class="col3">
+                <div class="footerItem">
+                    <h3>SOSYAL MEDYA</h3>
+                    <ul class="socialLinks">
+                        <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                    <ul class="socialLinks">
+                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="#"><i class="fab fa-google-play"></i></a></li>
+                    </ul>
+                    <!-- <a href="index.html"><img src="image/logoFooter.jpg" style="padding:20px"></a> -->
+                </div>
+            </di>
+        </div>
+    </footer>
+
+</body>
+
+</html>
